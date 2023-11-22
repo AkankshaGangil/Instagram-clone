@@ -1,0 +1,98 @@
+let myInfo = {
+
+profilepic:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8MxY40dcGLMXkp9ctM1kYLV7qbvHvIP9q1l9UzvJGbNNySAjyzf3pfxuKu9B-qbxXQBY&usqp=CAU",
+username:"_akanksha_",
+post:"15",
+followers:"452",
+following:"521",
+name:"Akanksha Gangil",
+Bio:"I am an artist",
+savedStatus:[
+    {  
+        statusName:"flowers",
+        status:[
+            "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
+            "https://images.unsplash.com/photo-1621155346337-1d19476ba7d6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGltYWdlfGVufDB8fDB8fHww",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN9Zak4qOt4Hcu-ZxXTy6xd2BW6i0sfxw_TSqWh2-xyKSWVXSiSiORNJGALZTasGA04kc&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkDtObQbKww_7jhcCIaqWqkaj3vERZj18sOtV85f9-3TE3nL8dPt5kahJfua2viOqTxBA&usqp=CAU"
+        ]
+    },
+    {
+        statusName:"Skech",
+        status:[
+            "https://img.freepik.com/premium-photo/cute-baby-puppy-dog-animal-sitting-nature-pencil-drawing-picture-ai-generated-image_210643-1610.jpg",
+            "https://thumbs.dreamstime.com/z/sketches-landscape-nature-painting-drawing-sketches-landscape-nature-painting-drawing-illustration-made-125666444.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXCptJxJIU8M87OrXtNU99OxRuho65oAbLxAWPEirDvAMa4R-9IH-kc_j222KdNXuIPkY&usqp=CAU",
+            "https://thumbs.dreamstime.com/z/sketches-landscape-nature-painting-drawing-sketches-landscape-nature-painting-drawing-illustration-made-125666444.jpg"
+        ]
+    },
+    {
+        statusName:"Photos",
+        status:[
+            "https://iso.500px.com/wp-content/uploads/2016/03/pedroquintela-1500x844.jpg",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.pinterest.com%2Fpin%2F732609064368904751%2F&psig=AOvVaw2vZWjU_wznIkZRwGSJwa4J&ust=1700201002324000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCICYrLjsx4IDFQAAAAAdAAAAABAJ",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcCF5Mgp57mXaCgrx2uEmYLVMdFtO_k7WrhTe9AD-JiJXBvyxoqbadCdPl4hBzXinmfcI&usqp=CAU",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.pinterest.com%2Fpin%2F732609064368904751%2F&psig=AOvVaw2vZWjU_wznIkZRwGSJwa4J&ust=1700201002324000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCICYrLjsx4IDFQAAAAAdAAAAABAJ"
+        ]
+    }
+],
+   
+    posts:[
+    {
+        postImages:[
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4BWfdJtwZj-ROGo-irI55Q_Dpxl6KBNqc6g&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK1h5tfUfxAjmrRXcvfH6RJOseEMW5f7VxEg&usqp=CAU"
+        ]
+    },
+    {
+        postImages:[
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRrBXINlYLH8sAR-HekvqoR5R5ZdyOdkto2g&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaK0D1vrWdG9tNgxLi-6bO83G9zVtK5GZfZXcE6_lPrOuNpsvggdL-XZnL1q-y3Hxz8Jw&usqp=CAU"
+        ]
+    },
+    {
+        postImages:[
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvpP2U11X6d0zUnDDSzqhX-zEgFRM15v9E1w&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaxKjCOcoyaNRmEF38yHK_SyV9dW2aWzSktg&usqp=CAU"
+        ]
+    },
+    {
+        postImages:[
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Adams_The_Tetons_and_the_Snake_River.jpg/800px-Adams_The_Tetons_and_the_Snake_River.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFTnW7FQ3Op8DZRYTQYsC_CoeXywIyGKa4rQ&usqp=CAU"
+        ]
+    },
+    {
+        postImages:[
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB1N05z0JqDIrUjkJKSyCIuHuAQZsPdVFm_Q&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSU2iOUkZWzPfzpQKvqiLuBX2dOjNz9MLSUA&usqp=CAU"
+        ]
+    },
+    {
+        postImages:[
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK1h5tfUfxAjmrRXcvfH6RJOseEMW5f7VxEg&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1hFjNLIUG1GCkHXXNuymbtNOlKzM3H4YT8Q&usqp=CAU"
+        ]
+    },
+    {
+        postImages:[
+            "https://expertphotography.b-cdn.net/wp-content/uploads/2019/02/fine-art-photographers-ana-lora.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQn3j5vrQ8xiOQcbe_UEX8dndTBt2Cql_Y4cF1Vuv2hOWqJuoqD2wHtpe2WZlkIBm3tEI&usqp=CAU"
+        ]
+    },
+    {
+        postImages:[
+            "https://d1ee3oaj5b5ueh.cloudfront.net/thumbs/1440xAUTO_processed_article_2021_12_61b86fc0dfd78.jpeg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFTnW7FQ3Op8DZRYTQYsC_CoeXywIyGKa4rQ&usqp=CAU"
+        ]
+    },
+    {
+        postImages:[
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvpP2U11X6d0zUnDDSzqhX-zEgFRM15v9E1w&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB1N05z0JqDIrUjkJKSyCIuHuAQZsPdVFm_Q&usqp=CAU"
+        ]
+    }
+    ]
+}
+
+export {myInfo};

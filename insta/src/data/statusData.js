@@ -1,0 +1,50 @@
+let obj = [
+{
+    username:"rohit",
+    profilepic:"https://cdn-icons-png.flaticon.com/512/219/219983.png",
+    statusPic:[
+        {
+            imageUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtg5UxL2tzIEho-1kj_oE8bSvKkk_EpAIqfA&usqp=CAU"
+        },
+        {
+            imageUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdy4iYOZmLX6iuIt46OxBYTp-ZTzBu9mfRLA&usqp=CAU"
+        }
+    ]
+},
+{
+username:"tina",
+profilepic:"https://static.vecteezy.com/system/resources/previews/019/896/008/original/male-user-avatar-icon-in-flat-design-style-person-signs-illustration-png.png",
+statusPic:[
+    {
+        imageUrl:"https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.webp?b=1&s=170667a&w=0&k=20&c=ahypUC_KTc95VOsBkzLFZiCQ0VJwewfrSV43BOrLETM="
+    },
+    {
+        imageUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd2bCxCreM6X2ibTP3nk7iiqt1IsH6pImZgQ&usqp=CAU"
+    }
+]
+},
+{
+username:"tina",
+profilepic:"https://cdn-icons-png.flaticon.com/512/206/206881.png",
+statusPic:[
+    {
+        imageUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwczYu69rycuIZPLOk59zCEAGOKJ6GxI6dFw&usqp=CAU"
+    },
+    {
+        imageUrl:""
+    }
+]
+},
+{
+username:"Jony",
+profilepic:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX4wVGjMQ37PaO4PdUVEAliSLi8-c2gJ1zvQ&usqp=CAU",
+statusPic:[
+    {
+        imageUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxDWn_BRVpGH-NA3ud3B_gr1C40yI12A6gOg&usqp=CAU"
+    }
+]
+},
+
+]
+
+export {obj};
