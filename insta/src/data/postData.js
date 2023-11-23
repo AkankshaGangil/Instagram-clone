@@ -4,6 +4,7 @@ let obj=[
       postpic:"https://wallpapers.com/images/featured/picture-en3dnh2zi84sgt3t.jpg",
       profilepic:"https://wallpapercave.com/wp/wp7992199.jpg",
       likes:200,
+      timespamp:"2h",
       aboutpost:"nice",
       Comments:[
         {
@@ -32,7 +33,8 @@ let obj=[
         profilepic:"https://static.vecteezy.com/system/resources/previews/019/896/008/original/male-user-avatar-icon-in-flat-design-style-person-signs-illustration-png.png",
         postpic:"https://media.wired.com/photos/598e35fb99d76447c4eb1f28/master/pass/phonepicutres-TA.jpg",
         likes:200,
-        aboutpost:"nice",
+        timespamp:"6h",
+        aboutpost:"Beautiful",
         Comments:[
           {
               username:"ankita",
@@ -60,7 +62,8 @@ let obj=[
         postpic:"https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw",
         profilepic:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYAnJV3fia9SZbVl7GZCUOvTqlxh_0kros7EAXc74U8qzk56u9Q1FPYIKxADaf0bny2rw&usqp=CAU",
         likes:200,
-        aboutpost:"nice",
+        timespamp:"10h",
+        aboutpost:"this is me",
         Comments:[
           {
               username:"Riya",
@@ -87,6 +90,7 @@ let obj=[
         postpic:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdy4iYOZmLX6iuIt46OxBYTp-ZTzBu9mfRLA&usqp=CAU",
         profilepic:"https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw",
         likes: 200,
+        timespamp:"2d",
         aboutpost:"nice",
         Comments:[
           {
@@ -116,6 +120,7 @@ let obj=[
        
         profilepic:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYAnJV3fia9SZbVl7GZCUOvTqlxh_0kros7EAXc74U8qzk56u9Q1FPYIKxADaf0bny2rw&usqp=CAU",
         likes:200,
+        timespamp:"3d",
         aboutpost:"nice",
         Comments:[
           {
