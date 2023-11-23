@@ -2,29 +2,46 @@ import React from "react";
 import "../../styles/post.css"
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import {obj as postObject} from "../../data/postData"
+import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import MoreHorizOutlinedIcon from '@mui/icons-material/MoreHorizOutlined';
+import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
+import BookmarkBorderOutlinedIcon from '@mui/icons-material/BookmarkBorderOutlined';
 const Post = () => {
     return(
         <div className="postContainer">
          {
             postObject.map(postData=>{
-                return<div style={{border:"1px solid gray",padding:"10px 5px 5px",marginBottom:"10px"}} >
+                return<div style={{padding:"10px 5px 5px",marginBottom:"10px"}} >
                     <div class="postHeader">
                      <img src={`${postData.profilepic}`} width="30px" height="30px" style={{borderRadius:"50%"}} alt=""/>   
                   
                   <li style={{listStyle:"none",display:"flex",gap:"50vh"}}> 
-                      <span>{postData.username}</span>
-                      <span><MoreHorizOutlinedIcon/></span>
+                      
+                      <div><span>{postData.username}</span>
+                      <span style={{color:"gray"}}>{postData.timespamp}</span>
+                      </div>
+                      <div>
+                      <span ><MoreHorizOutlinedIcon/></span>
+                      </div>
                    </li>
                    </div>
 
                    <div className="postMain">
-                    <img  width="100%" src={`${postData.postpic}`} alt=""/>
-                   <span><span><FavoriteBorderOutlinedIcon />{postData.likes}</span> likes</span>
+                    <img  width="100%" src={`${postData.postpic}`} style={{borderRadius:'5px'}} alt=""/>
+                   
+                <div className="postFooter_Icon">
+                   <div><FavoriteBorderOutlinedIcon className="postIcon" />
+                    <ChatBubbleOutlineIcon className="postIcon"/>
+                   <SendOutlinedIcon className="postIcon"/>
+                   </div>
+                    <div>
+                        < BookmarkBorderOutlinedIcon className="postIcon"/>
+                    </div>
+                </div>   
+                    <span style={{color:"lightgray"}}>{postData.likes} people likes this post</span>
                    <span style={{color:"gray",marginBottom:"20px"}}>{postData.aboutpost}</span>
                    
-                   </div>
-
+                  </div>
                    <div>
                     {
                         postData.Comments.map(Comment=>{
