@@ -6,14 +6,33 @@
 .postHeader{
      display: flex;
     justify-content: flex-start;
-    
+    flex-direction: row;
     width: 100%;
     gap: 10px;
     height: 50px;
     align-items: center;
 }
+
+
 .postMain{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+
+.postFooter_Icon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+.postIcon:hover{
+  cursor: pointer;
+}
+.postIcon{
+  padding: 7px;
+  font-size: 30px;
 }
