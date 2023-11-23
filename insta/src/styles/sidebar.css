@@ -14,7 +14,15 @@
 }
 .sidebarcontainer ul li{
 
-    
+     margin: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
     justify-content: space-around;
     display: flexbox;
+}
+.sidebarcontainer ul li:hover{
+    background-color: rgba(255, 255,255 ,0.128);
+    cursor: pointer;
+}
+.sidebarcontainer > span{
+    display: flex;
 }
