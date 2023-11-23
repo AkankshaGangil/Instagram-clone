@@ -3,3 +3,7 @@
     margin-right: 10px;
     
 }
+.followLink:hover{
+    color: white;
+    cursor: pointer;
+}
